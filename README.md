@@ -8,11 +8,10 @@
 
 DMS adalah aplikasi web untuk mengelola dokumen teknis dalam sebuah organisasi berbasis proyek. Aplikasi ini memungkinkan:
 
-- **Centralized Storage**: Penyimpanan dokumen terpusat berdasarkan proyek.
-- **Versioning**: Kontrol versi otomatis (v1, v2, dst) dengan fitur *rollback*.
-- **Change Highlighting**: Visualisasi perbedaan (diff) antar versi dokumen.
-- **Approval Workflow**: Alur persetujuan berjenjang (Draft -> Pending -> Approved -> Released).
-- **RBAC**: Akses berbasis peran (Admin, Editor, Viewer, Approver).
+- **Interactive Review**: Review dokumen dengan komentar per-baris (Line-based Comments).
+- **Threaded Replies**: Diskusi berjenjang pada komentar.
+- **Project-Based RBAC**: Akses berbasis peran per proyek (Reviewer, Creator, Viewer).
+- **Control**: Admin memiliki kendali penuh atas manajemen user dan proyek.
 
 ## 🛠️ Tech Stack
 
